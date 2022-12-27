@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="login-container">
+            <h2>Welcome</h2>
+            <p>Selecciona el método de autenticación</p>
+
+            <form action="">
+                <p>
+                    <label for="username">Nombre de usuario:</label>
+                    <input class="input" type="text" name="username" id="username">
+                </p>
+
+                <p>
+                    <label for="password">Contraseña:</label>
+                    <input class="input" type="text" name="password" id="password">
+                </p>
+
+                <div class="options">
+                    <div>
+                        Recuérdame
+                        <input type="checbox" name="remember" id="remember">   
+                    </div>       
+                    <div>
+                        <a href="#">Olvide mi Contraseña</a>
+                    </div>           
+
+                </div>
+                <p> 
+                    <input type="submit" class="btn btn-login" value="log in">
+                </p>
+                <div class="providers">
+                    <span>elija otro para autenticar</span>
+                    <button class="btn btn-google">Google</button> 
+                    <button class="btn btn-facebook">facebook</button>
+                    <button class="btn btn-twitter">twitter</button>      
+
+                    
+
+                </div>
+
+
+
+            </form>
+
+
+
+        </div>
+
+        <div class="welcome-screen-container"></div>
+
+    </div>
+</body>
+</html>
